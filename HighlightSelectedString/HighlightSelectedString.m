@@ -88,7 +88,10 @@ static HighlightSelectedString *sharedPlugin;
         _highlightColor = [NSColor colorWithCalibratedRed:red green:green blue:blue alpha:alpha];
         
     } else {
-        _highlightColor = [NSColor colorWithCalibratedRed:1.000 green:0.992 blue:0.518 alpha:1.000];
+        //白色背景
+        //_highlightColor = [NSColor colorWithCalibratedRed:1.000 green:0.992 blue:0.518 alpha:1.000];
+        //黑色背景
+        _highlightColor = [NSColor colorWithCalibratedRed:60.0f/255.0f green:60.0f/255.0f blue:10.0f/255.0f alpha:1.000];
     }
 }
 
